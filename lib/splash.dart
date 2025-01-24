@@ -27,7 +27,7 @@ class _SplashState extends State<Splash> {
   }
 
   route(){
-    Navigator.of(context).pushReplacementNamed('login');
+    Navigator.of(context).pushReplacementNamed('/login');
   }
 
   @override
