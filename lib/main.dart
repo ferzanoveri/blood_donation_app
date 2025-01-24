@@ -1,6 +1,7 @@
 import 'package:blood_donation_app/splash.dart';
 import 'package:blood_donation_app/survey.dart';
 import 'package:flutter/material.dart';
+import 'booking.dart';
 import 'login.dart';
 
 void main(){
@@ -9,7 +10,7 @@ void main(){
     routes: {
       '/': (context) => Splash(),
       '/login': (context) => Login(),
-      // '/booking': (context) => Booking(),
+      '/booking': (context) => Booking(),
       '/survey': (context) => Survey(),
     },
   ));
